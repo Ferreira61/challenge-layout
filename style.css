@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+  }
+
+body {
+    width: 1440px;
+    height: 720px;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.direita {
+    width: 50%;
+    height: 784px;
+    left: 376px;
+    top: 0px;
+    background-image: url(/assets/read_news.png);
+    background-position-x: right;
+    background-size: cover;
+    
+}
+
+.esquerda {
+ width: 50%;
+ height: 780px;
+ left: 0px;
+ top: 0px;
+ background-color:var(--body-bg-color);
+ background-color: --#8257e5;
+}
+
+label {
+    position: absolute;
+width: 133px;
+height: 19px;
+left: 36px;
+top: 388px;
+
+font-family: 'Spartan';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 138.73%;
+color: #A8A8A8;
+}
+
+header{
+    margin-bottom: 92px;
+    font-size: 30px;
+    font-family: 'League Spartan', sans-serif;
+    color: var(--form-color);
+}
+
+header img {
+    width: 389px;
+    height: 94px;
+}
+
+h1 {
+    position: absolute;
+    width: 566px;
+    height: 30.44px;
+    left: 36px;
+    top: 236px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #08C05E;
+
+}
+
+form div {
+
+    display: flex;
+    padding-left: 20px;
+}
+
+
+form div input {
+    border-left: 8px solid #04D361;
+    
+    position: absolute;
+    width: 798px;
+    height: 48px;
+    left: 36px;
+    top: 424px;
+    
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+}
+
+
+h2 {
+    /* tudo que você precisa saber para começar seu dia bem e informado */
+
+    position: absolute;
+    width: 517px;
+    height: 16px;
+    left: 36px;
+    top: 275px;
+
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF
+
+
+
+}
+
+h3 {
+    /* noticias sobre o universo Rocketseat, e tudo o que precisa para começar o dia melhor. perfeito para se preparar para codar ☕ */
+
+    position: absolute;
+    width: 647px;
+    height: 38px;
+    left: 36px;
+    top: 300px;
+
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+color: #FFFFFF;
+
+
+}
+
+.link {
+    text-decoration: none;
+    position: absolute;
+    width: 157px;
+    height: 19px;
+    left: 35px;
+    top: 524px;
+    color:#8257E5;
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.73%;
+}
+
+button{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 844px;
+    top: 424px;
+    border: none;
+    background-color: #8257E5;
+}
+
